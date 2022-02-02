@@ -53,9 +53,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\HomeworkLibrary.csproj">
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
       <Project>{4547c4d5-ac16-40c9-943e-7ffe89575a20}</Project>
-      <Name>HomeworkLibrary</Name>
+      <Name>ClassLibrary1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

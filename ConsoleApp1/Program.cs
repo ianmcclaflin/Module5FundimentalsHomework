@@ -26,6 +26,7 @@ namespace ConsoleApp1
                 "Students idnumber {2}\n" +
                 "Students GPA {3}", stu1.FirstName, stu1.LastName, stu1.IdNumber, stu1.GPA);
 
+            
 
         }
     }
