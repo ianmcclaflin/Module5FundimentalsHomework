@@ -12,8 +12,18 @@ namespace ClassLibrary1
         private string _password;
 
 
-        public string UserName { get; set; }
-        public string PassWord { get; set; }
+        public string UserName
+        {
+            get { return _username; }
+            set { _username = value; }
+        }
+
+        public string PassWord
+        {
+            get { return _password; }
+            set { _password = value; }
+
+        }
 
         public Login(string username, string password)
         {
