@@ -7,7 +7,7 @@ using ClassLibrary1;
 
 namespace ConsoleApp1
 {
-    class Program
+    class TestHarness
     {
         static void Main(string[] args)
         {
@@ -26,6 +26,9 @@ namespace ConsoleApp1
                 "Students idnumber {2}\n" +
                 "Students GPA {3}", stu1.FirstName, stu1.LastName, stu1.IdNumber, stu1.GPA);
 
+            Vehicle vec1 = new Vehicle("kia", "Sodona", 1988, 98.23f);
+
+            Console.WriteLine(vec1);
             
 
         }

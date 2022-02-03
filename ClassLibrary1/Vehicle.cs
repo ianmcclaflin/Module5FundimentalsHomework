@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    class Vehicle
+    public class Vehicle
     {
         private string _make;
         private string _model;
