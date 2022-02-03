@@ -29,6 +29,10 @@ namespace ConsoleApp1
             Vehicle vec1 = new Vehicle("kia", "Sodona", 1988, 98.23f);
 
             Console.WriteLine(vec1);
+
+            Login log1 = new Login("Username", "password");
+
+            Console.WriteLine(log1);
             
 
         }
