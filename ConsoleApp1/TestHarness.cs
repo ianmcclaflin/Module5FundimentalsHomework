@@ -36,6 +36,10 @@ namespace ConsoleApp1
 
             ContactInfo person = new ContactInfo("1234 E 54st", "Hellosville", "HI", "84975", "849-984-8875", "hello@hi.com");
             Console.WriteLine(person);
+
+            Customer customer1 = new Customer("1234", "Steve", "Stevenson", person);
+
+            Console.WriteLine(customer1);
             
 
         }
